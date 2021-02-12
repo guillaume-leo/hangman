@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hangman game</title>
+</head>
+<body>
+ 
+    <p id="wordToGuess"></p>
+    <p id="lifeBar"></p>
+    <button onclick="initGame()">RETRY</button>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th><button class = "buttonLetter" onclick="tryLetter('a')" id ="btn-a">a</button></th>
+                <th><button class = "buttonLetter" onclick="tryLetter('b')" id ="btn-b">b</button></th>
+                <th><button class = "buttonLetter" onclick="tryLetter('c')" id ="btn-c">c</button></th>
+                <th><button class = "buttonLetter" onclick="tryLetter('d')" id ="btn-d">d</button></th>
+                <th><button class = "buttonLetter" onclick="tryLetter('e')" id ="btn-e">e</button></th>
+                <th><button class = "buttonLetter" onclick="tryLetter('f')" id ="btn-f">f</button></th>
+                <th><button class = "buttonLetter" onclick="tryLetter('g')" id ="btn-g">g</button></th>
+                <th><button class = "buttonLetter" onclick="tryLetter('h')" id ="btn-h">h</button></th>
+                <th><button class = "buttonLetter" onclick="tryLetter('i')" id ="btn-i">i</button></th>
+                <th><button class = "buttonLetter" onclick="tryLetter('j')" id ="btn-j">j</button></th>
+                <th><button class = "buttonLetter" onclick="tryLetter('k')" id ="btn-k">k</button></th>
+                <th><button class = "buttonLetter" onclick="tryLetter('l')" id ="btn-l">l</button></th>
+                <th><button class = "buttonLetter" onclick="tryLetter('m')" id ="btn-m">m</button></th>
+                <th><button class = "buttonLetter" onclick="tryLetter('n')" id ="btn-n">n</button></th>
+                <th><button class = "buttonLetter" onclick="tryLetter('o')" id ="btn-o">o</button></th>
+                <th><button class = "buttonLetter" onclick="tryLetter('p')" id ="btn-p">p</button></th>
+                <th><button class = "buttonLetter" onclick="tryLetter('q')" id ="btn-q">q</button></th>
+                <th><button class = "buttonLetter" onclick="tryLetter('r')" id ="btn-r">r</button></th>
+                <th><button class = "buttonLetter" onclick="tryLetter('s')" id ="btn-s">s</button></th>
+                <th><button class = "buttonLetter" onclick="tryLetter('t')" id ="btn-t">t</button></th>
+                <th><button class = "buttonLetter" onclick="tryLetter('u')" id ="btn-u">u</button></th>
+                <th><button class = "buttonLetter" onclick="tryLetter('v')" id ="btn-v">v</button></th>
+                <th><button class = "buttonLetter" onclick="tryLetter('w')" id ="btn-w">w</button></th>
+                <th><button class = "buttonLetter" onclick="tryLetter('x')" id ="btn-x">x</button></th>
+                <th><button class = "buttonLetter" onclick="tryLetter('y')" id ="btn-y">y</button></th>
+                <th><button class = "buttonLetter" onclick="tryLetter('z')" id ="btn-z">z</button></th>
+            </tr>
+        </thead>
+    </table>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
