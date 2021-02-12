@@ -22805,7 +22805,7 @@ function initGame(){
     regex = /[ ,ç,-,â,ô,ï,ê,û,î]/g;
     found = chosenWord.match(regex);
     while (found != null){initGame();};
-    
+    chosenWord = format(chosenWord);
     life = 10;
     
     console.log("chosenWord : "+ chosenWord); 
